@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://www.cermati.com/app/gabung')
 
-WebUI.setText(findTestObject('Object Repository/Registration/input_No. Handphone_mobilePhone'), '082240958139')
+WebUI.setEncryptedText(findTestObject('Object Repository/Registration/input_No. Handphone_mobilePhone'), 'bof/x5XHKM0iOytLG52S0w==')
 
 WebUI.setText(findTestObject('Object Repository/Registration/input_Email_email'), 'tester.hena@gmail.com')
 
